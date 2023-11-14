@@ -1,0 +1,7 @@
+var ValorDolar = 30;
+var CotaçãoReal = 5.32;
+
+var ValorReal = ValorDolar * CotaçãoReal;
+ValorReal = ValorReal.toFixed(2);
+
+alert('R$'+ValorReal);
